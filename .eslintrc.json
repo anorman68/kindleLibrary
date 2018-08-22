@@ -3,7 +3,9 @@
         "browser": true,
         "commonjs": true,
         "es6": true,
-        "node": true
+        "node": true,
+        "jest": true,
+        "jsx": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -17,6 +19,7 @@
         "react"
     ],
     "rules": {
+        "no-unused-vars" :"off",
         "indent": [
             "error",
             2
