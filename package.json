@@ -18,5 +18,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anorman68/kindleLibrary.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1"
   }
 }
